@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{250B9C8F-EBCD-4C23-BBB8-7157F6B2C05F}</ProjectGuid>
+    <ProjectGuid>{A7BC2A3B-5C1C-376E-DB97-FE7294A57BC9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>KIWIARENAA</RootNamespace>
     <AssemblyName>KIWIARENAA</AssemblyName>
@@ -129,6 +129,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Data\matches.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
